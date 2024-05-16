@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    font-family: 'poppins', sans-serif;
+  }
+  
+  /* slide styles */
+  .slick-dots li {
+    margin: 0px !important;
+  }
+  
+  .slick-dots {
+    bottom: 0px !important;
+    padding: 35px !important;
+    z-index: 99999999999999999999999999 !important;
+    text-align: right !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ffffff !important;
+  }
+  
+  .slick-dots li button:hover {
+    color: #ffffff !important;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 11px !important;
+    color: #ffffff !important;
+  }
+  
+  .slider-img {
+    background: linear-gradient(180deg, #0000001f 30%, #29AB87 90%);
+    opacity: 0.9;
+    padding: 50px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .imgtext {
+    padding-top: 400px;
+    color: white;
+  }
+  
+  .backgroundimg{
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
